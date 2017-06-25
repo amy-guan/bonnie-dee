@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  height: 100%;
+  background-color: #f7f3d7;
+  font-family:Pacifico;
+  background-image: url(http://i.imgur.com/x1l4pXU.png);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:55vw;
+  background-position:2vw 0vh;
+
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+#blurb{
+    margin-top:10vh;
+    margin-bottom:20vh;
+    margin-left:55vw;
+    padding-right:5vw;
+    background-color:transparent;
+    color:#473645;
+}
+
+#blurb hello{
+    font-family:Roboto Slab;
+    font-size:14vh;
+    font-weight:bold;
+}
+
+#blurb bonnie{
+    font-family:Pacifico;
+    font-size:16vh;
+    line-height:95%
+}
+
+#qa{
+    margin-top:8vh;
+    margin-bottom:20vh;
+    margin-left:53vw;
+    margin-right:5vw;
+    padding-left:14px;
+    padding-right:14px;
+    padding-top:11px;
+    padding-bottom:11px;
+    background-color:transparent;
+    color:#473645;
+    border:dotted;
+    border-radius:10px;
+}
+
+#qa question{
+    font-family:Pacifico;
+    font-size:4vh;
+}
+
+#qa answer{
+    font-family: Roboto Slab;
+    font-size:2.7vh;
+}
+
+#back{
+    font-family: Roboto Slab;
+    font-size: 4vh;
+    font-weight:bolder;
+    margin-left:85vw;
+    margin-top:-18vh;
+    color:#5b4659;
+}
+
+#back a:hover{
+    color:#967f94;
+}
+
+#subt{
+    font-family: Roboto Slab;
+    font-size: 3.3vh;
+    margin-left:55vw;
+    margin-top:-15vh;
+    padding-right:5vw;
+    color:#5b4659;
+}
+
+.button {
+    background-color: #473645;
+    border: none;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:roboto slab;
+    border-radius:8px;
+    transition: background-color 0.75s ease;
+    transition: border 0.7s ease;
+
+}
+
+a.button{
+    color: #e2deba;
+    font-weight:bold;
+    transition: color 0.75s ease;
+
+}
+
+a.button:hover{
+    background-color: #e2deba;
+    color:#473645;
+    border:dotted;
+
+}
+
+
+#buttonupload{
+    background-color: #473645;
+    font-family:roboto slab;
+  border: none;
+  width: 10vw;
+  padding: 15px 25px;
+  padding-bottom:15px;
+  text-align: center;
+  margin-top: 5vh;
+  margin-left: 120vh;
+  box-shadow: 1px 1px 3px gray;
+  border-radius:8px;
+  display:block;
+}
+
+#buttonupload a{
+    color: #e8c9e4;
+    font-weight:bold;
+    font-size:20px;
+    display:block;
+    
+}
+
+#footer{
+  background-color: #586473;
+  bottom: 0px;
+  position: fixed;
+  width:100%;
+  font-size: 14px;
+  padding-top: 0.2vh;
+  padding-bottom: 1.5vh;
+}
+
+#footer pdali{
+  color:#FFF;
+  padding-left:1vw;
+}
+
+#footer psponsor{
+  padding-right:1vw;
+}
+
+.otherfooter{
+  margin-right:0px;
+}
